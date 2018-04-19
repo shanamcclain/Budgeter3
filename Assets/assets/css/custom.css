@@ -1,0 +1,8 @@
+﻿#loginBackground {
+    background: url('../img/background/background-5.png');
+}
+
+.table-attachment img {
+    max-height: 100px;
+    max-width: 100px;
+}

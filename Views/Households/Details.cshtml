@@ -1,0 +1,51 @@
+﻿@model Budgeter3.Models.HouseholdViewModel
+
+<h2>@Model.HHName</h2>
+
+<div>
+    <hr />
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Members</h4>
+            </div>
+            <div class="card-content table-responsive table-full-width">
+                <table class="table table-hover">
+                    <thead>
+                    <th>Name</th>
+                    <th>Email</th>
+                    </thead>
+                    <tbody>
+                        @foreach (var m in Model.Users)
+                        {
+                            <tr>
+                                <td>@m.DisplayName</td>
+                                <td>
+                                    @m.Email
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Invite</h4>
+                <p>Invite another user to join your household.</p>
+            </div>
+            <div class="card-content table-responsive table-full-width">
+          
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.HHId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

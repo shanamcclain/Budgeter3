@@ -1,0 +1,521 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Selecao one page site template with bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- styles -->
+    <link href="~/Assets/Selecao/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Assets/Selecao/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="~/Assets/Selecao/css/prettyPhoto.css" rel="stylesheet">
+    <link href="~/Assets/Selecao/font/stylesheet.css" rel="stylesheet">
+    <link href="~/Assets/Selecao/css/animate.css" rel="stylesheet">
+    <link href="~/Assets/Selecao/css/flexslider.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="~/Assets/Selecao/css/sequencejs.css">
+    <link href="~/Assets/Selecao/css/style.css" rel="stylesheet">
+    <link href="~/Assets/Selecao/color/default.css" rel="stylesheet">
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/Assets/Selecao/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/Assets/Selecao/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/Assets/Selecao/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="~/Assets/Selecao/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="~/Assets/Selecao/ico/favicon.ico">
+
+    <!-- =======================================================
+      Theme Name: Selecao
+      Theme URL: https://bootstrapmade.com/selecao-bootstrap-template/
+      Author: BootstrapMade.com
+      Author URL: https://bootstrapmade.com
+    ======================================================= -->
+</head>
+
+<body>
+    <header>
+
+        <!-- start top -->
+        <div id="topnav" class="navbar navbar-fixed-top default">
+            <div class="navbar-inner">
+                <div class="container">
+                    <div class="logo">
+                        <a class="brand"></a>
+                    </div>
+                    <div class="navigation">
+                        <nav>
+                            <ul class="nav pull-right">
+                                <li><a href="#featured">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="@Url.Action("Login", "Account")">Login</a></li>
+                                <li><a href="@Url.Action("Register", "Account")">Register</a></li>
+                                <li><a href="@Url.Action("Demo", "Account")">Demo</a></li>
+                                @*<li class="dropdown">
+                                        <a href="#">More</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="@Url.Action("Login", "Account")">Login</a></li>
+                                            <li><a href="@Url.Action("Register", "Account")">Register</a></li>
+                                        </ul>
+                                    </li>*@
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        <!-- end top -->
+    </header>
+
+    <!-- section featured -->
+    <section id="featured">
+
+        <!-- sequence slider -->
+        <div id="sequence-theme">
+            <img class="prev" src="~/Assets/Selecao/img/bt-prev.png" alt="Previous">
+            <img class="next" src="~/Assets/Selecao/img/bt-next.png" alt="Next">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <div @*id="sequence"*@>
+                            <ul>
+                                <li class="animate-in">
+                                    <div class="info letter-container">
+                                        <h2 class="fade">$TRACK</h2>
+                                    </div>
+                                    <h4 class="subtitle">@*Mei ea persius alienum errem audiam eum id impetus bonorum*@</h4>
+                                    <div class="bottomup">
+                                        <img src="~/Assets/Selecao/img/slider/parallax/img-1.png" alt="">
+                                    </div>
+                                </li>
+                                @*<li class="animate-in">
+                                        <div class="info letter-container">
+                                            <h2 class="fade">We creates unique website</h2>
+                                        </div>
+                                        <h4 class="subtitle">Lorem ipsum dolor sit amet viris torquatos ad vis invidunt singulis</h4>
+                                        <div class="lefttop">
+                                            <img src="~/Assets/Selecao/img/slider/parallax/img-2.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li class="animate-in">
+                                        <div class="info letter-container">
+                                            <h2 class="fade">With latest technology</h2>
+                                        </div>
+                                        <h4 class="subtitle">His at quod impedit eu zril quando perfecto mel sed eu eros debet.</h4>
+                                        <div class="righttop">
+                                            <img src="~/Assets/Selecao/img/slider/parallax/img-3.png" alt="">
+                                        </div>
+                                    </li>*@
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end sequence slider -->
+    </section>
+    <!-- end featured -->
+    <!-- Section about -->
+    <section id="about" class="section">
+        <div class="gray-shadow">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div class="headline">
+                        <h3><span>About our company</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            @*<div class="row">
+                    <div class="span12">
+                        <div class="section-intro">
+                            <p>
+                                Congue assentior eu vix. Iusto voluptaria vis te. Eos ea quot qualisque, usu an doming graeco vocent. Ei vocent patrioque pri, mea cu soluta accusam platonem. His mentitum laboramus definitionem in.
+                            </p>
+                        </div>
+                    </div>
+                </div>*@
+            <div class="row">
+                <div class="span6">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <img src="~/Assets/Selecao/img/slider/flexslider/img-1.png" alt="">
+                            </li>
+                            <li>
+                                <img src="~/Assets/Selecao/img/slider/flexslider/img-2.png" alt="">
+                            </li>
+                            <li>
+                                <img src="~/Assets/Selecao/img/slider/flexslider/img-3.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="span6">
+                    <h3>who we are</h3>
+                    <p>
+                        We are a personal finance software created to help you gain control of your expenses and get you on track to saving and managing your money more efficiently. Our goal is to organize your income and expenses all in one place to help you better see how you are spending your money month to month.
+                    <p>
+                        <div class="dotted_line"></div>
+                        <h4>Expertise areas</h4>
+                        <label>Web design:</label>
+                        <div class="progress progress-striped progress-info active">
+                            <div class="bar bar80">
+                            </div>
+                        </div>
+                        <label>Wordpress :</label>
+                        <div class="progress progress-striped progress-warning active">
+                            <div class="bar bar60">
+                            </div>
+                        </div>
+                        <label>Photoshop :</label>
+                        <div class="progress progress-striped progress-danger active">
+                            <div class="bar bar40">
+                            </div>
+                        </div>
+                        <label>Ilustrator :</label>
+                        <div class="progress progress-striped progress-success active">
+                            <div class="bar bar20">
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section about -->
+    <!-- section services -->
+    <section id="services" class="section parallax">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div class="headline">
+                        <h3><span>$Track Services</span></h3>
+                    </div>
+                </div>
+                @*<div class="span12">
+                        <div class="section-intro">
+                            <p>
+                                Qui te reprimique scripserit, et zril ornatus duo, mei te habemus fastidii interpretaris. Mel eu vide pericula, te ius sint concludaturque. No quo tale vocibus.
+                            </p>
+                        </div>
+                    </div>*@
+            </div>
+            <div class="row">
+                <div class="span3">
+                    <div class="well box aligncenter">
+                        <i class="icon-circled active icon-48 icon-bar-chart"></i>
+                        <h3>Money Tracking</h3>
+                        <p>
+                            We allow you to divide your cash flow into different categories for clear and efficient tracking of your expenses.
+                        </p>
+                        <a href="#" class="btn btn-color">Learn more</a>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="well box aligncenter">
+                        <i class="icon-circled icon-48 icon-group"></i>
+                        <h3>Household Budgeting</h3>
+                        <p>
+                            We keep a detailed record of every form of income and expenditure you have to manage and monitor your household budget.
+                        </p>
+                        <a href="#" class="btn btn-color">Learn more</a>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="well box aligncenter">
+                        <i class="icon-circled icon-48 icon-lock"></i>
+                        <h3>Account Security</h3>
+                        <p>
+                            We provide maximum data security and do not require access to your personal bank account or credit card details.
+                        </p>
+                        <a href="#" class="btn btn-color">Learn more</a>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="well box aligncenter">
+                        <i class="icon-circled icon-48 icon-credit-card"></i>
+                        <h3>Personal Accounts</h3>
+                        <p>
+                            We track your account and spending so you can see where your money is going and get on track to control your expenses and help you save.
+                        </p>
+                        <a href="#" class="btn btn-color">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section services -->
+    <!-- section works -->
+    @*<section id="works" class="section gray-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <div class="headline">
+                            <h3><span>What we've done</span></h3>
+                        </div>
+                    </div>
+                    <div class="span12">
+                        <div class="section-intro">
+                            <p>
+                                Congue assentior eu vix. Iusto voluptaria vis te. Eos ea quot qualisque, usu an doming graeco vocent.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="span12">
+                        <ul class="filter">
+                            <li class="all active"><a href="#" class="btn btn-color">All categories</a></li>
+                            <li class="web"><a href="#" class="btn btn-color">Web design</a></li>
+                            <li class="brand"><a href="#" class="btn btn-color">Brand identity</a></li>
+                            <li class="graphic"><a href="#" class="btn btn-color">Graphic design</a></li>
+                            <li class="photo"><a href="#" class="btn btn-color">Photography</a></li>
+                            <li class="ilustrator"><a href="#" class="btn btn-color">Ilustrator</a></li>
+                        </ul>
+                        <div class="row">
+                            <ul class="portfolio-area">
+                                <li class="portfolio-item2" data-id="id-0" data-type="web">
+                                    <div class="thumb-wrapp">
+                                        <img src="~/Assets/Selecao/img/portfolio/img1.jpg" class="folio-image" alt="">
+                                        <div class="folio-caption">
+                                            <h5>Portfolio name</h5>
+                                            <span class="folio-link">
+                                                <a href="~/Assets/Selecao/img/portfolio/big.jpg" data-pretty="prettyPhoto" title="zoom">
+                                                    <i class="icon-rounded  icon-32 icon-zoom-in"></i>
+                                                </a>
+                                                <a href="#"><i class="icon-rounded  icon-32 icon-link"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="portfolio-item2" data-id="id-0" data-type="brand">
+                                    <div class="thumb-wrapp">
+                                        <img src="~/Assets/Selecao/img/portfolio/img2.jpg" class="folio-image" alt="">
+                                        <div class="folio-caption">
+                                            <h5>Portfolio name</h5>
+                                            <span class="folio-link">
+                                                <a href="~/Assets/Selecao/img/portfolio/big.jpg" data-pretty="prettyPhoto" title="zoom">
+                                                    <i class="icon-rounded  icon-32 icon-zoom-in"></i>
+                                                </a>
+                                                <a href="#"><i class="icon-rounded  icon-32 icon-link"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="portfolio-item2" data-id="id-0" data-type="web">
+                                    <div class="thumb-wrapp">
+                                        <img src="~/Assets/Selecao/img/portfolio/img3.jpg" class="folio-image" alt="">
+                                        <div class="folio-caption">
+                                            <h5>Portfolio name</h5>
+                                            <span class="folio-link">
+                                                <a href="~/Assets/Selecao/img/portfolio/big.jpg" data-pretty="prettyPhoto" title="zoom">
+                                                    <i class="icon-rounded  icon-32 icon-zoom-in"></i>
+                                                </a>
+                                                <a href="#"><i class="icon-rounded  icon-32 icon-link"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="portfolio-item2" data-id="id-0" data-type="graphic">
+                                    <div class="thumb-wrapp">
+                                        <img src="~/Assets/Selecao/img/portfolio/img4.jpg" class="folio-image" alt="">
+                                        <div class="folio-caption">
+                                            <h5>Portfolio name</h5>
+                                            <span class="folio-link">
+                                                <a href="~/Assets/Selecao/img/portfolio/big.jpg" data-pretty="prettyPhoto" title="zoom">
+                                                    <i class="icon-rounded  icon-32 icon-zoom-in"></i>
+                                                </a>
+                                                <a href="#"><i class="icon-rounded  icon-32 icon-link"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="portfolio-item2" data-id="id-0" data-type="ilustrator">
+                                    <div class="thumb-wrapp">
+                                        <img src="~/Assets/Selecao/img/portfolio/img5.jpg" class="folio-image" alt="">
+                                        <div class="folio-caption">
+                                            <h5>Portfolio name</h5>
+                                            <span class="folio-link">
+                                                <a href="~/Assets/Selecao/img/portfolio/big.jpg" data-pretty="prettyPhoto" title="zoom">
+                                                    <i class="icon-rounded  icon-32 icon-zoom-in"></i>
+                                                </a>
+                                                <a href="#"><i class="icon-rounded  icon-32 icon-link"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="portfolio-item2" data-id="id-0" data-type="brand">
+                                    <div class="thumb-wrapp">
+                                        <img src="~/Assets/Selecao/img/portfolio/img6.jpg" class="folio-image" alt="">
+                                        <div class="folio-caption">
+                                            <h5>Portfolio name</h5>
+                                            <span class="folio-link">
+                                                <a href="~/Assets/Selecao/img/portfolio/big.jpg" data-pretty="prettyPhoto" title="zoom">
+                                                    <i class="icon-rounded  icon-32 icon-zoom-in"></i>
+                                                </a>
+                                                <a href="#"><i class="icon-rounded  icon-32 icon-link"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="portfolio-item2" data-id="id-0" data-type="photo">
+                                    <div class="thumb-wrapp">
+                                        <img src="~/Assets/Selecao/img/portfolio/img7.jpg" class="folio-image" alt="">
+                                        <div class="folio-caption">
+                                            <h5>Portfolio name</h5>
+                                            <span class="folio-link">
+                                                <a href="~/Assets/Selecao/img/portfolio/big.jpg" data-pretty="prettyPhoto" title="zoom">
+                                                    <i class="icon-rounded  icon-32 icon-zoom-in"></i>
+                                                </a>
+                                                <a href="#"><i class="icon-rounded  icon-32 icon-link"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="portfolio-item2" data-id="id-0" data-type="photo">
+                                    <div class="thumb-wrapp">
+                                        <img src="~/Assets/Selecao/img/portfolio/img8.jpg" class="folio-image" alt="">
+                                        <div class="folio-caption">
+                                            <h5>Portfolio name</h5>
+                                            <span class="folio-link">
+                                                <a href="~/Assets/Selecao/img/portfolio/big.jpg" data-pretty="prettyPhoto" title="zoom">
+                                                    <i class="icon-rounded  icon-32 icon-zoom-in"></i>
+                                                </a>
+                                                <a href="#"><i class="icon-rounded  icon-32 icon-link"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>*@
+    <!-- section works -->
+    <!-- section contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div class="headline">
+                        <h3><span>Get in touch with us</span></h3>
+                    </div>
+                </div>
+                <div class="span12">
+                    <div class="section-intro">
+                        <p>
+                            Feel free to ask if you have any question regarding our services or if you just want to say Hello, we would love to hear from you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span6" style="padding-left:300px;">
+                    <h4><i class="icon-circled icon-32 icon-envelope"></i> Contact </h4>
+
+                    <!-- start contact form -->
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+
+                    @using (Html.BeginForm("Contact", "Home"))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div id="sendmessage">Your message has been sent. Thank you!</div>
+                        <div id="errormessage"></div>
+
+                        <ul class="contact-list">
+                            <li class="form-group">
+                                <input type="text" name="name" class="form_input" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                <div class="validation"></div>
+                            <li class="form-group">
+                                <input type="email" class="form_input" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                                <div class="validation"></div>
+                            </li>
+                            <li class="form-group">
+                                <input type="text" class="form_input" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                                <div class="validation"></div>
+                            </li>
+
+                            <li class="form-group">
+                                <textarea class="form_textarea" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validation"></div>
+                            </li>
+                            <li class="last">
+                                <button class="btn btn-large btn-theme" type="submit" id="send">Send a message</button>
+                            </li>
+                        </ul>
+                    }
+                    <!-- end contact form -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section contact -->
+
+
+    <footer>
+        <div class="verybottom">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <div class="aligncenter">
+                            <div class="logo">
+                                <a class="brand" href="index.html">
+                                </a>
+                            </div>
+                            <p></p>
+                            @*<div class="social-links">
+                                    <ul class="social-links">
+                                        <li><a href="#" title="Twitter"><i class="icon-circled icon-64 icon-twitter"></i></a></li>
+                                        <li><a href="#" title="Facebook"><i class="icon-circled icon-64 icon-facebook"></i></a></li>
+                                        <li><a href="#" title="Google plus"><i class="icon-circled icon-64 icon-google-plus"></i></a></li>
+                                        <li><a href="#" title="Linkedin"><i class="icon-circled icon-64 icon-linkedin"></i></a></li>
+                                        <li><a href="#" title="Pinterest"><i class="icon-circled icon-64 icon-pinterest"></i></a></li>
+                                    </ul>
+                                </div>*@
+                            <div class="credits">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript Library Files -->
+    <script src="~/Assets/Selecao/js/jquery.min.js"></script>
+    <script src="~/Assets/Selecao/js/jquery.easing.js"></script>
+    <script src="~/Assets/Selecao/js/bootstrap.js"></script>
+    <script src="~/Assets/Selecao/js/jquery.lettering.js"></script>
+    <script src="~/Assets/Selecao/js/parallax/jquery.parallax-1.1.3.js"></script>
+    <script src="~/Assets/Selecao/js/nagging-menu.js"></script>
+    <script src="~/Assets/Selecao/js/sequence.jquery-min.js"></script>
+    <script src="~/Assets/Selecao/js/sequencejs-options.sliding-horizontal-parallax.js"></script>
+    <script src="~/Assets/Selecao/js/portfolio/jquery.quicksand.js"></script>
+    <script src="~/Assets/Selecao/js/portfolio/setting.js"></script>
+    <script src="~/Assets/Selecao/js/jquery.scrollTo.js"></script>
+    <script src="~/Assets/Selecao/js/jquery.nav.js"></script>
+    <script src="~/Assets/Selecao/js/modernizr.custom.js"></script>
+    <script src="~/Assets/Selecao/js/prettyPhoto/jquery.prettyPhoto.js"></script>
+    <script src="~/Assets/Selecao/js/prettyPhoto/setting.js"></script>
+    <script src="~/Assets/Selecao/js/jquery.flexslider.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+
+    <!-- Contact Form JavaScript File -->
+    <script src="~/Assets/Selecao/contactform/contactform.js"></script>
+
+    <!-- Template Custom Javascript File -->
+    <script src="~/Assets/Selecao/js/custom.js"></script>
+
+</body>
+
+</html>
